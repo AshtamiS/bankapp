@@ -1,0 +1,25 @@
+<p>login works!</p>
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+        <div id="abc">
+            <form action="" class=" p-5">
+
+               <div class="text-center "> <img src="https://png.pngtree.com/png-clipart/20190628/original/pngtree-vector-bank-icon-png-image_4046246.jpg"
+                    width="100px" height="100px" alt="" class="mt-5"></div>
+
+                <div class="text-center m-4"><h2>My Bank</h2></div>
+
+                <h6>{{aim}}</h6>
+                <input (change)=acnoChange($event) type="text" [placeholder]="accounts" class="form-control" id="login_acno">
+                <input (change)=pswdChange($event) type="text" placeholder="password" class="form-control mt-3" id="login_pswd">
+                <button class="btn btn-lg  btn-dark form-control mt-3 me-5" type="button" (click)="login()">login</button>
+            <div class="m-3 text-center">
+                <a href="">forgot password?</a>or <a href="./signup.html">sign up</a>
+            </div>
+            </form>
+        </div>
+
+    </div>
+    <div class="col-4"></div>
+</div>
